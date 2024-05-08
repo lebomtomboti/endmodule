@@ -2,3 +2,22 @@
     margin: 20%;
 }
 
+body{
+    background-color: black;  
+    color: blue;
+}
+#nav-bar{
+    background-color: blue;
+}
+.nav-link{
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: white;
+    background-color: black;
+}
+
