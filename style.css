@@ -1,23 +1,26 @@
+
 .info{
     margin: 20%;
 }
 
 body{
     background-color: black;  
-    color: blue;
+    color: white;
+    /* overflow-x: hidden; */
 }
-#nav-bar{
-    background-color: blue;
-}
+/* .nav-item{
+    margin-left: 5%;
+} */
 .nav-link{
     color: white;
     font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
     text-decoration: none;
+    
 }
 .nav-link:hover{
-    color: white;
+    color: red;
     background-color: black;
 }
 .card{
@@ -25,3 +28,27 @@ body{
     height: 50%;
 }
 
+
+
+/* NAVBAR */
+
+
+
+
+/* HOME STYLING */
+.home-content{
+    background-image: linear-gradient(109deg, transparent 0%, transparent 5%,rgba(149, 149, 149,0.04) 5%, rgba(149, 149, 149,0.04) 38%,transparent 38%, transparent 100%),linear-gradient(324deg, transparent 0%, transparent 31%,rgba(149, 149, 149,0.04) 31%, rgba(149, 149, 149,0.04) 99%,transparent 99%, transparent 100%),linear-gradient(259deg, transparent 0%, transparent 11%,rgba(149, 149, 149,0.04) 11%, rgba(149, 149, 149,0.04) 57%,transparent 57%, transparent 100%),linear-gradient(221deg, transparent 0%, transparent 5%,rgba(149, 149, 149,0.04) 5%, rgba(149, 149, 149,0.04) 37%,transparent 37%, transparent 100%),linear-gradient(90deg, rgb(0,0,0),rgb(0,0,0));
+    background-position: center;
+}
+
+.sep-link, .home-btn{
+    background-color: brown;
+}
+.home-hdr{
+    color: brown;
+}
+
+
+
+
+/* ABOUT STYLING */
