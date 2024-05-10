@@ -41,7 +41,13 @@ body{
     background-position: center;
     background-attachment: fixed;
 }
-
+.social-icons{
+    position: absolute;
+    margin-left: -20%;
+}
+.footer{
+    width: 100%;
+}
 .sep-link, .home-btn{
     background-color: brown;
 }
@@ -184,33 +190,41 @@ margin-top:2%;
 .bii{
     font-size: 100%;
 }
+h2{
+    text-align: center;
+}
+
 
 /* contact */
 .contact {
     padding: 20px;
-    margin-left: 35%;
-    /* background-color: #F7F7F7; */
+    margin-left: 20%;
+    background-image: linear-gradient(109deg, transparent 0%, transparent 5%,rgba(149, 149, 149,0.04) 5%, rgba(149, 149, 149,0.04) 38%,transparent 38%, transparent 100%),linear-gradient(324deg, transparent 0%, transparent 31%,rgba(149, 149, 149,0.04) 31%, rgba(149, 149, 149,0.04) 99%,transparent 99%, transparent 100%),linear-gradient(259deg, transparent 0%, transparent 11%,rgba(149, 149, 149,0.04) 11%, rgba(149, 149, 149,0.04) 57%,transparent 57%, transparent 100%),linear-gradient(221deg, transparent 0%, transparent 5%,rgba(149, 149, 149,0.04) 5%, rgba(149, 149, 149,0.04) 37%,transparent 37%, transparent 100%),linear-gradient(90deg, rgb(0,0,0),rgb(0,0,0));
+    background-position: center;
+    background-attachment: fixed;
   }
-  /* .container {
-    max-width: 600px;
-    margin: 0 auto;
-  } */
   .form-label {
     font-weight: bold;
+    display: block;
+    margin-left: 12%;
+    margin-bottom: 5px;
   }
   .form-control {
-    width: 50%;
+    width: 100%;
+    margin-left: 12%;
     padding: 10px;
     margin-bottom: 15px;
     /* border: 1px solid #ccc; */
     border-radius: 5px;
+    box-sizing: border-box;
   }
   textarea.form-control {
     height: 100px;
   }
   .btn-primary {
     background-color: #007BFF;
-    /* color: #fff; */
+    color: #fff;
+    margin-left: 20%;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -219,7 +233,3 @@ margin-top:2%;
   .btn-primary:hover {
     background-color: #0056B3;
   }
-  .bi{
-    margin: 2%;
-  }
-  
