@@ -99,13 +99,13 @@ margin-top:2%;
 
 /* contact */
 .contact{
-    width: 50%;
+    width: 50%; 
     
 }
 h1 ,h2{
     color: brown;
 }
-:06
+/* :06 */
 .info{
     margin: 20%;
 }
@@ -159,6 +159,9 @@ hr{
     rotate: 90deg;
 }
 /* projects Styling*/
+h1{
+    text-align: center;
+}
 #img3{
 margin-top:2%;
 }
@@ -178,6 +181,10 @@ margin-top:2%;
 .card-title{
     color: white;
 }
+.bii{
+    font-size: 100%;
+}
+
 /* contact */
 .contact {
     padding: 20px;
@@ -212,3 +219,7 @@ margin-top:2%;
   .btn-primary:hover {
     background-color: #0056B3;
   }
+  .bi{
+    margin: 2%;
+  }
+  
